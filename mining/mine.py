@@ -45,3 +45,25 @@ def Mine(block,transaction,hash_prev,zeros):
         print('You have successfully mined a sample bitcoin.')
         time.sleep(0.7)
     return store
+
+def main():
+    """
+    Parameters:
+    -transactions: String of names of customers and arrows indicate direction of transaction (eg: Zoe->Tom->40)
+    -level: Number of zeros required before hash
+    -prev_hash: Hash key from previous transaction
+
+    """
+
+    start = time.time()
+    transaction = input('Enter your transactions: ')
+    level = 5
+    prev_hash = '0000xa036944e29568d0cff17edbe038f81208fecf9a66be9a2b8321c6ec7rj1'
+    generated = Mine(2,transaction,prev_hash,level)
+    end = time.time()
+    print('Time taken: {:.2f}'.format(end-start))
+    print('Hash value: ',generated)
+    print('Thank you for using our interface.')
+
+if __name__=='__main__':
+    main()
