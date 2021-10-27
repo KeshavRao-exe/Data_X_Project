@@ -1,0 +1,94 @@
+body{
+    background: url(https://s3-alpha-sig.figma.com/img/f5bc/7134/d189251ebe5ec92edb15ab24f41e4e65?Expires=1636329600&Signature=A0Y1sN9d9qsrDn-h6nA5n18pCZdVtPf8E5nC0-mgNti2~5AhoUaAjYKFVOHMY44aLMuJRicnK~J6cirIRHsPKKGEEwuXIJIFxkdf7jNlBttS-MLBpqzReUuantB0wf8YGty5QfGL2ksEpbYEgdjU6y~lgYK0MF26Lk8mAcgTegjbzkrXoPamJKQqJR1Cq8nBBzA7bpu07uN3F209W6auSmycDbL7P80OMH92Z-0Lim13bXp5DcmNQk3qSnN15~Jd34B83~v3nU~9WTe4zar-9sVGzKj43Gp4Q9BmCkwUZc21K3xH8FR1DemrmpenksOh7ZpEftt7Y3-F7ssqRWV12g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+}
+
+.flex-container {
+    display: flex;
+  }
+
+.navbar{
+    position:absolute;
+    width: 98%;
+    left:30px;
+    top:0px;
+    height: 80px;
+}
+
+.title{
+    position:relative;
+top: -17px;
+padding-left: 8px;
+font-family: Rock Salt;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 131px;
+color: #B750F5;
+}
+
+.nav-options{
+    display:flex;
+    margin-left: auto;
+    align-content:space-around;
+    padding:15px 20px 0 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-op{
+    display:flex;
+    align-items:center;
+    color:white;
+    padding: 0 50px 0 0;
+    text-decoration: none;
+}
+
+a{
+    transition: all 0.3s ease 0s;
+}
+
+a:hover{
+    color: #B750F5;
+}
+
+.pic{
+    position:absolute;
+    left:0;
+    top:90px;
+}
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-38%, -50%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    color: white;
+    font-weight:bolder;
+  }
+
+  .purple{
+      color:#e785ff;
+  }
+
+.abouttitle{
+      position:absolute;
+      left:650px;
+      top:850px;
+      font-size: 45px;
+      color: #B750F5;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 300;
+}
+
+.aboutcontent{
+    color: white;
+    position:absolute;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    left:70px;
+    top:950px;
+    text-align: center;
+    padding-right: 70px;
+}
