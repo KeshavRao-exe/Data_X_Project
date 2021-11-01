@@ -1,5 +1,6 @@
 body{
     background: url(https://s3-alpha-sig.figma.com/img/f5bc/7134/d189251ebe5ec92edb15ab24f41e4e65?Expires=1636329600&Signature=A0Y1sN9d9qsrDn-h6nA5n18pCZdVtPf8E5nC0-mgNti2~5AhoUaAjYKFVOHMY44aLMuJRicnK~J6cirIRHsPKKGEEwuXIJIFxkdf7jNlBttS-MLBpqzReUuantB0wf8YGty5QfGL2ksEpbYEgdjU6y~lgYK0MF26Lk8mAcgTegjbzkrXoPamJKQqJR1Cq8nBBzA7bpu07uN3F209W6auSmycDbL7P80OMH92Z-0Lim13bXp5DcmNQk3qSnN15~Jd34B83~v3nU~9WTe4zar-9sVGzKj43Gp4Q9BmCkwUZc21K3xH8FR1DemrmpenksOh7ZpEftt7Y3-F7ssqRWV12g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    display: flex;
 }
 
 .flex-container {
@@ -94,7 +95,7 @@ a:hover{
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
     left:70px;
-    top:950px;
+    top:970px;
     text-align: center;
     padding-right: 70px;
 }
@@ -118,7 +119,7 @@ a:hover{
 .feature1{
     position:absolute;
     top:1400px;
-    left:400px;
+    left:350px;
     font-size: 30px;
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -140,7 +141,7 @@ a:hover{
 .feature3{
     position:absolute;
     top:1700px;
-    left:300px;
+    left:270px;
     font-size: 30px;
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -151,7 +152,7 @@ a:hover{
 .feature4{
     position:absolute;
     top:1700px;
-    right:440px;
+    right:400px;
     font-size: 30px;
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -181,28 +182,28 @@ a:hover{
 .miningpic{
     position:absolute;
     top:1235px;
-    left:355px;
+    left:325px;
     width:145px;
 }
 
 .forecastingpic{
     position:absolute;
     top:1260px;
-    right:360px;
+    right:350px;
     width:175px;
 }
 
 .transactionpic{
     position:absolute;
     top:1530px;
-    left:320px;
+    left:300px;
     width:230px;
 }
 
 .privacypic{
     position:absolute;
     top:1560px;
-    right:440px;
+    right:400px;
     width:105px;
 }
 
@@ -218,7 +219,7 @@ a:hover{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
-    /* grid-column-gap: 90px; */
+    grid-column-gap: 30px;
     grid-row-gap: 0px;
     position:absolute;
     justify-content:space-evenly; 
@@ -234,13 +235,13 @@ a:hover{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
-    /* grid-column-gap: 90px; */
+    grid-column-gap: 40px;
     grid-row-gap: 0px;
     position:absolute;
     justify-content:space-evenly; 
-    padding-left:20px;
-    padding-right: 90px; 
-    top:1450px;
+    padding-left:30px;
+    padding-right: 0px; 
+    top:1750px;
     text-align: center;
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -252,4 +253,70 @@ a:hover{
 
 .content4{
     grid-area: 1 / 2 / 2 / 3; 
+}
+
+.teamtitle{
+    position:absolute;
+    top:1900px;
+    left:650px;
+    font-size: 45px;
+    color: #B750F5;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    transition: all 0.3s ease 0s;
+}
+
+.teamtitle:hover{
+    color:white;
+    top:1890px;
+}
+
+.footer{
+    position:absolute;
+    width:100%;
+    top:2000px;
+    left:0px;
+    height:200px;
+    background-color: rgba(37, 37, 37, 0.897);
+}
+
+.social{
+    font-size: 18px;
+    position: absolute;
+    right: 40%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    transition: all 0.3s ease 0s;
+}
+
+.learnmore{
+    font-size: 18px;
+    position: absolute;
+    right: 10%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    transition: all 0.3s ease 0s;
+}
+
+.services{
+    font-size: 18px;
+    position: absolute;
+    right: 25%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    transition: all 0.3s ease 0s;
+}
+
+.footertitle{
+    position:absolute;
+    top:50px;
+    left: 15px;
+    font-family: Rock Salt;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: #B750F5;
 }
