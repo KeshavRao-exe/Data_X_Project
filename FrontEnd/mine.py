@@ -1,5 +1,6 @@
 from hashlib import sha256
 import time
+import random
 
 def generate_sha(code):
     """
@@ -46,24 +47,29 @@ def Mine(block,transaction,hash_prev,zeros):
         time.sleep(0.7)
     return store
 
-def main():
+def mineit():
     """
     Parameters:
     -transactions: String of names of customers and arrows indicate direction of transaction (eg: Zoe->Tom->40)
     -level: Number of zeros required before hash
     -prev_hash: Hash key from previous transaction
-
     """
 
     start = time.time()
-    transaction = input('Enter your transactions: ')
-    level = 5
+    temp = ['Uchiha->Sasuke->20','Uchicha->Obito->40','Hatake->Kakashi->50','Pasta->Bologanesh->100','Uchicha->Itachi->30','Uzumaki->Naruto->70','Uzumaki->Nagato->40','Hyuga->Hinata->50','Yamanaka->Ino->60','Nara->Shikamaru->75','Guy->Maito->25','Uchicha->Madara->150','Senju->Hashirama->200']
+    temp1 = [3,4,5]
+    transaction = random.choice(temp)
+    level = random.choice(temp1)
     prev_hash = '0000xa036944e29568d0cff17edbe038f81208fecf9a66be9a2b8321c6ec7rj1'
     generated = Mine(2,transaction,prev_hash,level)
     end = time.time()
-    print('Time taken: {:.2f}'.format(end-start))
+    print('(end-start=',(end-start))
+    print("generated=",generated)
+    '''print('Time taken: {:.2f}'.format(end-start))
     print('Hash value: ',generated)
-    print('Thank you for using our interface.')
-
+    print('Thank you for using our interface.')'''
+    return (end-start), generated
+'''
 if __name__=='__main__':
     main()
+    '''
