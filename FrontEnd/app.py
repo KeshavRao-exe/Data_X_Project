@@ -27,7 +27,7 @@ def home():
 @app.route('/mining/')
 def mining():
     time_taken, hash_val = mineit()
-    mining = open('Data_X_Project/FrontEnd/templates/mining.html').read().format(time_taken = time_taken, hash_val = hash_val)
+    mining = open('FrontEnd/templates/mining.html').read().format(time_taken = time_taken, hash_val = hash_val)
     return mining
     #return render_template('mining.html', time_taken = time_taken, hash_val = hash_val)
 
