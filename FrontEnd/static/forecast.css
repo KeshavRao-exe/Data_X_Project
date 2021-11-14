@@ -274,7 +274,7 @@ a:hover{
 .footer{
     position:absolute;
     width:100%;
-    top:2000px;
+    top:1000px;
     left:0px;
     height:200px;
     background-color: rgba(37, 37, 37, 0.897);
@@ -284,7 +284,7 @@ a:hover{
     font-size: 18px;
     position: absolute;
     right: 40%;
-    color: #B750F5;
+    color: white;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     transition: all 0.3s ease 0s;
@@ -294,7 +294,7 @@ a:hover{
     font-size: 18px;
     position: absolute;
     right: 10%;
-    color: #B750F5;
+    color: white;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     transition: all 0.3s ease 0s;
@@ -304,7 +304,7 @@ a:hover{
     font-size: 18px;
     position: absolute;
     right: 25%;
-    color: #B750F5;
+    color: white;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     transition: all 0.3s ease 0s;
@@ -321,65 +321,8 @@ a:hover{
     color: #B750F5;
 }
 
-.miningform{
+.descmining{
     position: absolute;
-    top:200px;
+    top: 500px;
     left: 300px;
-    color: white;
-}
-
-.forecastjpg{
-    position: absolute;
-    top: 200px;
-    left: 250px;
-}
-
-.footermining{
-    position:relative;
-    color:white;
-    padding-top: 50px;
-    padding-left: 1065px;
-}
-
-.footerforecasting{
-    position:relative;
-    color:white;
-    padding-left: 1065px;
-    top: -10px;
-}
-
-.footeraboutus{
-    position:relative;
-    color:white;
-    padding-left: 1275px;
-    top: -80px;
-}
-
-.insta{
-    position:absolute;
-    color: white;
-    top: 50px;
-    padding-left: 860px;
-}
-
-.twitter{
-    position: absolute;
-    color: white;
-    padding-left: 860px;
-    top: 80px;
-}
-
-.facebook{
-    position:absolute;
-    color: white;
-    padding-left: 860px;
-    top: 105px;
-}
-
-.copyright{
-    position:absolute;
-    bottom:0px;
-    left:35px;
-    font-size: 13px;
-    color: #a8a7a8;
 }
