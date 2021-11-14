@@ -8,17 +8,6 @@ from mine import mineit
 
 #preds, targets = forecast()
 
-#temp = []
-#for i in range(int(end-start)):
-    #temp.append(i)
-
-#print(len(preds))
-#print(len(temp))
-#print(preds)
-
-#print("targets=",targets)
-#print("preds=",preds)
-
 app = Flask(__name__)
 
 @app.route('/')
