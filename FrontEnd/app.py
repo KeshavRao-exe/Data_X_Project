@@ -14,8 +14,10 @@ from mine import mineit
 
 #print(len(preds))
 #print(len(temp))
+#print(preds)
 
-
+#print("targets=",targets)
+#print("preds=",preds)
 
 app = Flask(__name__)
 
@@ -35,7 +37,8 @@ def mining():
 def forecast():
     #plt.plot(preds,targets)
     #plt.scatter(preds,targets)
-    #plt.plot(preds, color = 'green', label = 'Predicted Bitcoin Price')
+    #plt.plot(preds, color = 'red', label = 'Predicted Bitcoin Price')
+    #plt.plot(targets, color = 'red', label = 'Predicted Cryptocurrency Price')
     #plt.ylabel('Price in USD')
     #plt.xlabel('Date')
     #plt.savefig('Data_X_Project/FrontEnd/static/my_plot.png')
