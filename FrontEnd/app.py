@@ -46,6 +46,10 @@ def forecast():
     #img =  r'D:\My Projects\Data-X\Cryptoknight-Git\Data_X_Project\FrontEnd\myplot.png'
     return render_template('forecast.html')
 
+@app.route('/about/')
+def about():
+    return render_template('about.html')    
+
 if __name__ == '__main__':
     HOST = environ.get('SERVER_HOST', 'localhost')
     try:
