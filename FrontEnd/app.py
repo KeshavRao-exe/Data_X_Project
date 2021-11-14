@@ -27,17 +27,19 @@ def home():
 @app.route('/mining/')
 def mining():
     time_taken, hash_val = mineit()
-    mining = open('FrontEnd/templates/mining.html').read().format(time_taken = time_taken, hash_val = hash_val)
+    mining = open('Data_X_Project/FrontEnd/templates/mining.html').read().format(time_taken = time_taken, hash_val = hash_val)
     return mining
     #return render_template('mining.html', time_taken = time_taken, hash_val = hash_val)
 
 @app.route('/forecast/')
 def forecast():
     #plt.plot(preds,targets)
-    #plt.xlabel('Prediction')
-    #plt.ylabel('Time in sec')
-    #plt.savefig('Data_X_Project/FrontEnd/templates/Assets/my_plot.png')
-
+    #plt.scatter(preds,targets)
+    #plt.plot(preds, color = 'green', label = 'Predicted Bitcoin Price')
+    #plt.ylabel('Price in USD')
+    #plt.xlabel('Date')
+    #plt.savefig('Data_X_Project/FrontEnd/static/my_plot.png')
+    
     #img =  r'D:\My Projects\Data-X\Cryptoknight-Git\Data_X_Project\FrontEnd\myplot.png'
     return render_template('forecast.html')
 
