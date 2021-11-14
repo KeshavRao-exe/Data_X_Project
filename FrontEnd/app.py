@@ -34,10 +34,12 @@ def mining():
 @app.route('/forecast/')
 def forecast():
     #plt.plot(preds,targets)
-    #plt.xlabel('Prediction')
-    #plt.ylabel('Time in sec')
-    #plt.savefig('Data_X_Project/FrontEnd/templates/Assets/my_plot.png')
-
+    #plt.scatter(preds,targets)
+    #plt.plot(preds, color = 'green', label = 'Predicted Bitcoin Price')
+    #plt.ylabel('Price in USD')
+    #plt.xlabel('Date')
+    #plt.savefig('Data_X_Project/FrontEnd/static/my_plot.png')
+    
     #img =  r'D:\My Projects\Data-X\Cryptoknight-Git\Data_X_Project\FrontEnd\myplot.png'
     return render_template('forecast.html')
 
