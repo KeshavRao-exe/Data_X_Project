@@ -21,12 +21,30 @@
             <a class="nav-op" href="">Contact Us</a>
             </div>
         </div>
-        <div class="miningform" style="font-size: 22px;position: absolute;top:280px;left: 650px;color: white;">
+        <img src="../static/Gold-Coin.png" alt="Gold Coin" style="width:25%; color:white; position:absolute; top:220px; left:150px">
+        <div class="miningform" style="font-size: 22px;position: absolute;top:260px;left: 580px;color: white; font-family: 'Poppins', sans-serif;">
             <center>
                 <p>Time Taken : {time_taken}</p>
                 <p>Hash Value : {hash_val}</p>
                 <button type="button" onClick="window.location.reload();" style="border-radius: 10px; height: 50px; width: 100px; background-color: rgb(191, 142, 238);"><a href="/mining/">Mine a Coin!</a></button>
             </center>            
+        </div>
+        <div style="position: absolute;top: 670px;color:white;font-family: 'Poppins', sans-serif;">
+
+            <center>
+                <div style="color:violet; font-size: 30px;">
+                    Description
+                </div>
+                <div style="position:relative;top:40px">
+                Function that returns the SHA eencoded hash value for the transaction given. Input required is an alpha-numeric string that holds transaction information and is of type string. Output produced is a valid SHA encoded hash value of type string.
+                </div>
+                <div style="position:relative; top: 70px;">
+                     Function that returns the mining status by calculating the current transaction's hash value. it generates this value by combining block number and a valid input transaction status with the previous hash values. this is then encoded into the SHA256 format using the above function it requires the specifications of number of zeros for checking if a valid crypto coin has been mined. for example, a particular hash represents successful mining if it starts with specified number of zeros. it then outputs a valid mined hash value and the status of mining (successful or not)
+                </div>
+            </center>
+        </div>
+        <div class="footer">
+
         </div>
     </body>
 </html>
