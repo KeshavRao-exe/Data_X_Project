@@ -274,7 +274,7 @@ a:hover{
 .footer{
     position:absolute;
     width:100%;
-    top:2000px;
+    top:1000px;
     left:0px;
     height:200px;
     background-color: rgba(37, 37, 37, 0.897);
@@ -321,4 +321,8 @@ a:hover{
     color: #B750F5;
 }
 
-
+.descmining{
+    position: absolute;
+    top: 500px;
+    left: 300px;
+}
