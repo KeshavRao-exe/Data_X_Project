@@ -57,7 +57,7 @@ def normalise_zero_base(df):
     return df / df.iloc[0] - 1
 
 def normalise_min_max(df):
-    return (df - df.min()) / (data.max() - df.min())
+    return (df - df.min()) / (df.max() - df.min())
 
 def extract_window_data(df, window_len=5, zero_base=True):
     window_data = []
